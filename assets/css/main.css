@@ -873,10 +873,10 @@ input[type="radio"]:focus:checked+label:before {
 	background: #ffe4b4;
 }
 
-input[type="checkbox"].color1+label:before,
+/* input[type="checkbox"].color1+label:before,
 input[type="radio"].color1+label:before {
 	color: #726193;
-}
+} */
 
 input[type="checkbox"].color2+label:before,
 input[type="radio"].color2+label:before {
@@ -1302,9 +1302,9 @@ ul.contact-icons>li a {
 	border-bottom: 0;
 }
 
-ul.contact-icons.color1>li:before {
+/* ul.contact-icons.color1>li:before {
 	color: #726193;
-}
+} */
 
 ul.contact-icons.color2>li:before {
 	color: #e37b7c;
@@ -2304,6 +2304,11 @@ button:disabled,
 	background-size: 128px 128px, auto;
 }
 
+.panel>*.color0-alt {
+	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
+	background-size: 128px 128px, auto;
+}
+
 /* Activities */
 .panel>*.color1 {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
@@ -2898,7 +2903,12 @@ button:disabled,
 }
 
 .panel.color0 {
-	background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
+	background-size: 128px 128px, auto;
+}
+
+.panel.color0-alt {
+	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #312d2d 20%, #535151 60%, #686766);
 	background-size: 128px 128px, auto;
 }
 
@@ -2906,13 +2916,11 @@ button:disabled,
 .panel.color1 {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
 	background-size: 128px 128px, auto;
-	background-color: #726193;
 }
 
 .panel.color2 {
 	background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 	background-size: 128px 128px, auto;
-	background-color: #e37b7c;
 }
 
 .panel.color3 {
@@ -2997,11 +3005,11 @@ button:disabled,
 		background-color: #353865;
 	}
 
-	.panel>*.color1-alt {
+	/* .panel>*.color1-alt {
 		background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 		background-size: 128px 128px, auto;
 		background-color: #6c5e86;
-	}
+	} */
 
 	.panel>*.color2-alt {
 		background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
@@ -3482,11 +3490,11 @@ button:disabled,
 		width: 100%;
 	}
 
-	.panel.color1 {
+	/* .panel.color1 {
 		background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 		background-size: 128px 128px, auto;
 		background-color: #726193;
-	}
+	} */
 
 	.panel.color2 {
 		background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
@@ -3506,11 +3514,11 @@ button:disabled,
 		background-color: #353865;
 	}
 
-	.panel.color1-alt {
+	/* .panel.color1-alt {
 		background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 		background-size: 128px 128px, auto;
 		background-color: #6c5e86;
-	}
+	} */
 
 	.panel.color2-alt {
 		background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
