@@ -4073,8 +4073,12 @@ body.is-loading #wrapper {
 	}
 }
 
-.highlightO {
+.highlightTitle {
 	color: #4cd162;
+}
+
+.RedCircle {
+	color: #ff2b19;
 }
 
 .explainations {
