@@ -2310,18 +2310,21 @@ button:disabled,
 		background-size: 128px 128px, auto;
 	}
 }
+
 /* ====== */
 
 .panel>*.color0-alt {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
 	background-size: 128px 128px, auto;
 }
+
 @media (max-width: 479px) {
 	.panel>*.color0-alt {
 		background-image: url("../../images/overlay.png"), linear-gradient(180deg, #686766 20%, #535151 60%, #312d2d);
 		background-size: 128px 128px, auto;
 	}
 }
+
 /* Activities */
 .panel>*.color1 {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
