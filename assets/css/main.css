@@ -2298,17 +2298,30 @@ button:disabled,
 	min-width: 10rem;
 }
 
-/* Heading page */
+/* === Heading page === */
 .panel>*.color0 {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #312d2d 20%, #535151 60%, #686766);
 	background-size: 128px 128px, auto;
 }
 
+@media (max-width: 479px) {
+	.panel>*.color0 {
+		background-image: url("../../images/overlay.png"), linear-gradient(.50turn, #312d2d 20%, #535151 60%, #686766);
+		background-size: 128px 128px, auto;
+	}
+}
+/* ====== */
+
 .panel>*.color0-alt {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
 	background-size: 128px 128px, auto;
 }
-
+@media (max-width: 479px) {
+	.panel>*.color0-alt {
+		background-image: url("../../images/overlay.png"), linear-gradient(180deg, #686766 20%, #535151 60%, #312d2d);
+		background-size: 128px 128px, auto;
+	}
+}
 /* Activities */
 .panel>*.color1 {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
@@ -2912,11 +2925,20 @@ button:disabled,
 	background-size: 128px 128px, auto;
 }
 
-/* Activities */
+/* === Activities === */
 .panel.color1 {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #686766 20%, #535151 60%, #312d2d);
 	background-size: 128px 128px, auto;
 }
+
+@media (max-width: 479px) {
+	.panel.color1 {
+		background-image: url("../../images/overlay.png"), linear-gradient(.50turn, #686766 20%, #535151 60%, #312d2d);
+		background-size: 128px 128px, auto;
+	}
+}
+
+/* ====== */
 
 .panel.color2 {
 	background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
@@ -2941,16 +2963,40 @@ button:disabled,
 	background-color: #353865;
 }
 
+@media (max-width: 479px) {
+	.panel.l2r {
+		background-image: url("../../images/overlay.png"), linear-gradient(.50turn, #312d2d 20%, #374e3e 60%, #3a5c40);
+		background-size: 128px 128px, auto;
+		background-color: #353865;
+	}
+}
+
 .panel.r2l {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #3a5c40 20%, #374e3e 60%, #312d2d);
 	background-size: 128px 128px, auto;
 	background-color: #353865;
 }
 
+@media (max-width: 479px) {
+	.panel.r2l {
+		background-image: url("../../images/overlay.png"), linear-gradient(.50turn, #3a5c40 20%, #374e3e 60%, #312d2d);
+		background-size: 128px 128px, auto;
+		background-color: #353865;
+	}
+}
+
 .panel.color1-alt {
 	background-image: url("../../images/overlay.png"), linear-gradient(.25turn, #312d2d 20%, #535151 60%, #686766);
 	background-size: 128px 128px, auto;
 	background-color: #6c5e86;
+}
+
+@media (max-width: 479px) {
+	.panel.color1-alt {
+		background-image: url("../../images/overlay.png"), linear-gradient(.50turn, #312d2d 20%, #535151 60%, #686766);
+		background-size: 128px 128px, auto;
+		background-color: #6c5e86;
+	}
 }
 
 .panel.color2-alt {
